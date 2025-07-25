@@ -10,9 +10,8 @@ public class Main {
         while (total <= target) {
             month = month + 1;
             total = total + deposit;
+            System.out.println("Месяц " + month + " сумма накоплений равна " + total + " рублей");
         }
-        System.out.println("Месяц " + month + " сумма накоплений равна " + total + " рублей");
-
         //task2
         int number = 1;
         target = 10;
